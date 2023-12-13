@@ -1,4 +1,8 @@
 # Econ425 Vietnam Disability Capstone
-This is code for an undergraduate economics research paper done at Macalester College. The project itself 
+This is code for an undergraduate economics research paper done at Macalester College. The project itself examines the impact of temporal and geographic exposure to Agent Orange during the Vietnam War. 
 # Data files
-This project has one data file, called Viet2009CensusCleaned.dta which is attached in this repository. 
+This project has one data file, Viet2009CensusCleaned.dta which is attached to the submission and can be accessed by emailing enguyen@macalester.edu. The files comprise 1.3 million individual-level observations from IPUMS and the 2009 Vietnamese Census. 
+# Do files
+It is accompanied by a do-file which is ordered chronologically in the order in which figures and tables are listed in the paper. Lines 3-7 create balance tables and lines 10-11 create graphs to visualize the results found in the tables. Line 16 is the primary regression and the pre-trend tests for DiD are on lines 19-22. I test for robustness and heterogeneity on lines 25-38 and lines 42-58 respectively. The final lines of code in the do-file extend the results to education and employment outcomes. 
+
+A note: the regressions here are looking at The results depict a very small change in the coefficient. While it is standard for decimals to be limited to 3 places, I found that doing so eliminated the effect of the results I found, especially since I cannot scale dummy or categorical independent variables. However, the portion of the sample that has a disability is about 1% meaning that the results are more meaningful than that each of my regressions looks at the impact of the probability of changes to disability that is less than 1% of the population, given that fraction of people with disability in my data is less than 1% of the sample. 
