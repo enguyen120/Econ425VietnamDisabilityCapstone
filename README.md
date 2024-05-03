@@ -1,5 +1,5 @@
 # Econ425 Vietnam Disability Capstone
-This is code for an undergraduate economics research paper done at Macalester College. The project itself examines the impact of temporal and geographic exposure to Agent Orange during the Vietnam War. 
+This is code for an undergraduate economics research paper done at Macalester College. The project itself examines the impact of temporal and geographic exposure to Agent Orange during the Vietnam War. Please email enguyen@macalester.edu for access to the paper unless otherwise attached. 
 # Data files
 This project has one data file, Viet2009CensusCleaned.dta which is attached to the submission and can be accessed by emailing enguyen@macalester.edu. The files comprise 1.3 million individual-level observations from IPUMS and the 2009 Vietnamese Census. 
 # Do files
